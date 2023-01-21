@@ -1,0 +1,260 @@
+
+body {
+  background-image: url(imagini/bg1.png);
+}
+
+.font {
+  color: #ffffff;
+
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 48px;
+
+}
+
+#navBar {
+  font-size: 24px;
+  font-weight: 100;
+ font-family:Oswald
+
+}
+.colorBg {
+  background-color: #000000;
+  opacity: 80%;
+}
+#navLinks .nav-link {
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+#navLinks .nav-link:hover {
+  color:#2ec21e;
+}
+
+#navbar.scrolled {
+  background: rgb(222, 192, 222);
+  transition: background 1000ms;
+}
+
+#logo-img {
+  width: 60px;
+  height: 60px;
+}
+
+
+
+.textdreapta{
+	right: -20px;
+}
+
+.text-about h1 {
+	text-align: center;
+	font-family: 'Bangers', cursive;
+}
+
+#text-section p {
+	text-indent: 32px;
+	line-height: 1.6;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	font-style: italic;
+}
+#text-section span {
+	color: rgb(0, 0, 0);
+	font-size: 20px;
+	font-family: 'Dancing Script', cursive;
+}
+
+.bg-color {
+	background-color: rgb(255, 255, 255);
+}
+
+.bg-opacity {
+	opacity: 100%;
+}
+/* carusel*/
+
+.carousel-item {
+	background: rgb(0, 0, 0);
+	opacity: 93%;
+}
+.carousel-item img {
+	width: 100%;
+	height: 590px;
+	object-fit: cover;
+	object-position: center;
+	opacity: 0.58;
+}
+
+#pad {
+	padding: 5px 0;
+}
+
+
+/* carusel responsive */
+
+@media (max-width: 1024px) {
+	.carousel-item a {
+		font-size: 11px;
+	}
+	.carousel-item a:hover {
+		font-size: 10px;
+	}
+}
+
+@media (max-width: 1440px) {
+	.carousel-item img {
+		height: auto;
+	}
+}
+
+/* pentru brightness */
+.img-hover-zoom--brightness img {
+	transition: filter 0.2s ease-in-out;
+	transform-origin: center center;
+	filter: blur(8%);
+	filter: grayscale(40%);
+
+}
+
+/* filtru */
+.img-hover-zoom--brightness:hover img {
+	filter: grayscale(0%);
+	filter: blur(0%);
+}
+
+/* transform 1.2s,
+	transform: scale(1.040); */
+
+
+.img-border {
+	border-radius: 2px 15px 0 0;
+	border: 1px solid rgb(74, 74, 74);
+	box-shadow: 0 0 522px rgb(62, 63, 65);
+}
+
+
+
+.masc {
+	filter: brightness(80%);
+}
+
+
+
+.text-holder {
+	margin: 20px;
+	padding: 15px;
+	color: rgb(0, 0, 0);
+}
+
+.text-holder h2{
+	text-decoration: none;
+}
+
+/* button Connect with us */
+.about-btn {
+	font-size: 20px;
+	text-decoration: none;
+	
+	font-family: Oswald;
+	border-radius: 16px;
+	text-align: center;
+	cursor: pointer;
+	background-color: #06915e;
+	padding: 5px 10px;
+	color: #fff;
+	margin: 5px 5px;
+	font-style: normal;
+}
+.about-btn:hover {
+	border: 1px solid rgb(30, 168, 60);
+	color: #ffffff;
+	background-color: rgb(33, 177, 50);
+	font-size: 20px;
+	font-weight: 400;
+	box-shadow: 0 20px 20px -10px rgb(137, 237, 162);
+}
+/* blog */
+
+.read-more {
+	-moz-text-align-last: center;
+	text-align-last: center;
+}
+.read-more a {
+	display: inline-block;
+	background: #0ea947;
+	color: rgb(255, 255, 255);
+	padding: 6px 20px;
+	transition: 0.2s;
+	font-size: 14px;
+}
+
+.read-more a:hover {
+	background: #11d47c;
+}
+.connectwithus {
+	text-align: center;
+	background-color: #fff6f6; 
+	border: rgb(44, 81, 49);
+	color: rgb(40, 203, 94);
+	padding: 15px 32px;
+  }
+ 
+.blurat img {
+	transition: filter 0.5s ease-in-out;
+	transform-origin: center center;
+	filter: blur(80%);
+}
+
+.blurat:hover img {
+	filter: blur(100%);
+}
+
+
+.animatiee{ 
+position: absolute; 
+
+top: 90%; 
+left: 50%; 
+transform: translate(-50%,-50%); 
+text-align: center; 
+} 
+
+.buton1{ 
+	-moz-text-align-last: center;
+	text-align-last: center;
+	background: none; 
+	border: 2px solid #000; 
+	font-family: "montserrat",sans-serif; 
+	text-transform: uppercase; 
+	padding: 12px 20px; 
+	min-width: 200px; 
+	margin: 10px;
+	cursor: pointer; 
+	transition: color 0.4s linear; 
+
+} 
+.buton1:hover{ color: rgba(21, 207, 55, 0.867) 
+} 
+.buton1::before{
+content: ""; 
+position: absolute; 
+left: 0; 
+top: 0; 
+width: 100%; 
+height: 100%; 
+background: #000; 
+z-index: -1; 
+transition: transform 0.5s; 
+transform-origin: 0 0; 
+transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7); 
+} 
+.buton1::before{
+
+ transform: scaleX(0); 
+} 
+.buton1::before{ transform: scaleY(0);
+}
+.buton1:hover::before{ transform: scaleX(1); } 

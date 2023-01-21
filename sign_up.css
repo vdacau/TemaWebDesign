@@ -1,0 +1,73 @@
+body {
+	background-image: url(imagini/contact\ us.jpg);
+
+	font-family: "Sofia Sans", sans-serif;
+  }
+  
+  .signup-box {
+	width: 360px;
+	height: 620px;
+	margin: auto;
+	background-color: rgb(255, 255, 255);
+	opacity: 90%;
+  }
+  
+  .login-box {
+	width: 360px;
+	height: 280px;
+	margin: auto;
+	border-radius: 3px;
+	background-color: rgb(255, 255, 255);
+	opacity: 90%;
+  }
+  
+ 
+  input[type="button"] {
+	width: 320px;
+	height: 35px;
+	margin-top: 20px;
+	border: none;
+	background-color: #000000;
+	color: rgb(203, 238, 30);
+	font-size: 18px;
+  }
+  p {
+	text-align: center;
+	padding-top: 20px;
+	font-size: 15px;
+  }
+  .textjos {
+	text-align: center;
+	color: rgb(255, 255, 255);
+	font-size: 15px;
+	margin-top: -10px;
+  }
+  .textjos a {
+	color: #ffffff;
+  }
+  
+  h1 {
+	text-align: center;
+	padding-top: 15px;
+  }
+  
+  h4 {
+	text-align: center;
+  }
+  
+  form {
+	width: 300px;
+	margin-left: 20px;
+  }
+  
+  form label {
+	display: flex;
+	margin-top: 20px;
+	font-size: 18px;
+  }
+  
+  form input {
+	width: 100%;
+	padding: 7px;
+	outline: none;
+  }
